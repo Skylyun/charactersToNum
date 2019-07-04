@@ -99,7 +99,6 @@ int ChineseToNum(string characters)
 				}
 				else
 				{
-					//num = num*unit;
 					res += num*unit;
 				}
 				flag = false;
@@ -108,7 +107,6 @@ int ChineseToNum(string characters)
 			{
 				res *= unit;
 			}
-			flag = false;
 		}
 	}
 	return res;
